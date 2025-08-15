@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive => call by value 
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -9,7 +9,7 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-const id = Symbol('123')
+const id = Symbol('123') // Unique identifier, not equal to any other value, even if they have the same description
 const anotherId = Symbol('123')
 
 console.log(id === anotherId);
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) => call by reference
 
 // Array, Objects, Functions
 
